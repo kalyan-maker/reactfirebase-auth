@@ -17,7 +17,7 @@ export default function Homepage() {
       </Heading>
       <List>
         <ListItem>
-          <Link to='/test'>test page</Link>
+          <Link to='/test'>Test page</Link>
         </ListItem>
       </List>
     </Layout>

@@ -49,7 +49,7 @@ export default function AuthContextProvider({ children }) {
 
   function forgotPassword(email) {
     return sendPasswordResetEmail(auth, email, {
-      url: `https://react-firebaseauth.netlify.app/login`,
+      url: `https://react-firebaseauth.herokuapp.com/login`,
     });
   }
 
